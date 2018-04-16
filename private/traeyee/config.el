@@ -1,0 +1,7 @@
+;; (set-frame-position (selected-frame) 0 0)
+;; (setq initial-frame-alist '((left . 50) (top .50)))
+;;(modify-frame-parameters nil '((user-position . t) (left . (+ -4))))
+(setq default-frame-alist '((height . 30)))
+(show-paren-mode t)
+(setq show-paren-style 'mixed)
+(electric-pair-mode t)
